@@ -50,7 +50,7 @@ $size-xsmall : 5px;
 body {
 	font-family: 'Open Sans',sans-serif;
 	margin: 0;
-	padding: 50px 0 0;
+	padding: 50px 0 75px;
 	overflow-x: hidden;
 	background-color: $clr-white;
 	
@@ -117,6 +117,11 @@ body {
 	.btn {
 		border-radius: 4px;
 		height: 45px;
+
+		&-stiky {
+			padding: 15px 10px;
+			background-color: #f2f3f4;
+		}
 	}
 
 	.spacer {

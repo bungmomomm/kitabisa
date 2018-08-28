@@ -255,7 +255,7 @@ assetUrl = "/assets/8a9e91f";
 			</span>
 			<textarea name="donation_data[comment]" class="form-input form-input--block input-max-char" rows="2" placeholder="Tulis dukungan atau doa untuk campaign (opsional)" data-char="140" maxlength="140"></textarea>
 		</div>
-          <a class="btn btn--pink btn--large btn--material btn--block text-bold">LANJUT PEMBAYARAN</a>
+          <a class="btn btn--pink btn--large btn--block text-bold">LANJUT PEMBAYARAN</a>
 		</div>
     </div>
 
@@ -281,7 +281,7 @@ assetUrl = "/assets/8a9e91f";
 					</div>
 				</div>
 			</div>
-			<a data-fancybox data-animation-duration="700" data-src="#donasi" href="javascript:;" class="btn btn--pink btn--large btn--material btn--block text-bold margin--normal-v" onclick="ga('send', 'event', 'donate', 'click', 'mobile.campaign-page')">DONASI SEKARANG</a>
+			<a data-fancybox data-animation-duration="700" data-src="#donasi" href="javascript:;" class="btn btn--pink btn--large btn--block text-bold margin--normal-v" onclick="ga('send', 'event', 'donate', 'click', 'mobile.campaign-page')">DONASI SEKARANG</a>
 		</div>
 	</div>
 	<div class="spacer"></div>
@@ -360,7 +360,11 @@ assetUrl = "/assets/8a9e91f";
 			 </div>
 		</div>
 	</div>
-	<div class="spacer"></div>
+	<div id="campaign-donate-hilite" class="pwa-campaign-donate pwa-campaign-tip__hilite js-campaign-tip__hilite" style="display: none;">
+		<div class="container btn-stiky">
+			<a class="btn btn--pink btn--large btn--block text-bold" data-fancybox data-animation-duration="700" data-src="#donasi" href="javascript:;">DONASI SEKARANG</a>
+		</div>
+	</div>
 	<script src="assets/js/vendors/jquery.min.js"></script>
     <script src="assets/js/vendors/owlcarousel/owl.carousel.min.js"></script>
     <script src="assets/js/vendors/fancybox/jquery.fancybox.min.js"></script>
@@ -383,7 +387,17 @@ assetUrl = "/assets/8a9e91f";
             });
 
             $(".pwa-campaign__barfill").css({ 'width': "92%" });
+
         });
+
+        jQuery(document).scroll(function() {
+		  var y = $(this).scrollTop();
+			  if (y > 400) {
+			    $('#campaign-donate-hilite').fadeIn();
+			  } else {
+			    $('#campaign-donate-hilite').fadeOut();
+			  }
+		});
      </script>
 </body>
 </html>
