@@ -87,9 +87,11 @@ body {
 		&-status {
 			border-bottom: none;
 			&__campaigner {
-				vertical-align: middle;
+				vertical-align: top;
 				margin-left: 15px;
 				margin-top: 0;
+
+				.social-network img {height: 20px;}
 			}
 		}
 		&__stats {margin-top: 10px;}
@@ -122,6 +124,9 @@ body {
 			padding: 15px 10px;
 			background-color: #f2f3f4;
 		}
+		&--large {
+			padding: .9em 1.25em;
+		}
 	}
 
 	.spacer {
@@ -131,14 +136,73 @@ body {
 		margin-bottom: 20px;*/
 	}
 
+	.comment {
+
+		&-list {
+			background-color: #F8F8F8;
+			border-radius: 4px;
+			padding: 15px;
+			z-index: 1;
+			margin-bottom: 10px;
+
+			.pwa-campaigner__figure {
+				height: 50px;
+				vertical-align: middle;
+				background-color: #d8d8d8;
+				text-align: center;
+				text-transform: uppercase;
+				color: #4a4a4a;
+				line-height: 47px;
+			    font-size: 16px;
+			    font-weight: 600;
+			    z-index: 1;
+			}
+
+			h3 {
+				max-width: 76%;
+				font-weight: 400;
+
+				span {font-weight: 600;}
+				p {font-weight: 400;}
+			}
+		}
+		&-feeds {
+			background-color: $clr-white;
+			border-bottom: 1px solid #E8E8E8;
+			border-radius: 0;
+			padding-left: 0;
+			padding-right: 0;
+			z-index: 1;
+		}
+	}
+
 	.fancybox {
+		&-slide--html {
+			overflow: hidden;
+		}
 		&-content {
 			font-family: 'Open Sans',sans-serif;
 			text-align: center;
 			max-width: 375px;
 			width: 95%;
 			padding: 15px;
+			position: relative;
 			vertical-align: bottom;
+
+			&:before {
+				background-color: #e8e8e8;
+				content:'';
+				display: block;
+				width: 50px;
+				height: 4px;
+				border-radius: 4px;
+				position: absolute;
+				top: 10px;
+				left: 50%;
+				margin-left: -25px;
+				z-index: 0;
+			}
+
 		}
 	}
 
@@ -156,8 +220,8 @@ body {
 
 			&.change-payment {
 				padding: 8px 0;
-				border-top: 1px solid #d8d8d8;
-				border-bottom: 1px solid #d8d8d8;
+				border-top: 1px solid #E8E9EB;
+				border-bottom: 1px solid #E8E9EB;
 			}
 
 			&--amount {

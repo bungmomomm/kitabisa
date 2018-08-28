@@ -188,15 +188,12 @@ assetUrl = "/assets/8a9e91f";
 				</ul>
 			</div>
 	</header>
-
 	<div class="featuredImages owl-carousel owl-theme">
 		<a href="images/lombok-0.jpg" data-fancybox="gallery" data-caption="Simpati Jawa Barat &amp; Netizen untuk Gempa Lombok"><img src="images/lombok-0.jpg" width="100%"></a>
 		<a href="images/lombok-1.jpg" data-fancybox="gallery" data-caption="Simpati Jawa Barat &amp; Netizen untuk Gempa Lombok"><img src="images/lombok-1.jpg" width="100%"></a>
 		<a href="images/lombok-2.jpg" data-fancybox="gallery" data-caption="Simpati Jawa Barat &amp; Netizen untuk Gempa Lombok"><img src="images/lombok-2.jpg" width="100%"></a>
 	</div>
-
 	<!-- Donasi -->
-
 	<div style="display: none;" id="donasi" class="animated-modal align-center">
           <h4>Masukkan Nominal Donasi</h4>
           <div class="form__row form__row--amount cf top-checkbox">
@@ -223,9 +220,10 @@ assetUrl = "/assets/8a9e91f";
 					<span class="material-icons">check</span>
 					</label>
 					<span class="label-text pos-r clr-softgrey">
-						Sembunyikan identitas saya <button type="button" class="modal-trigger" data-target="#tentangAnonim">
-					<span class="fa fa-question"></span>
-					</button>
+						Sembunyikan identitas saya 
+						<!-- <button type="button" class="modal-trigger" data-target="#tentangAnonim">
+							<span class="fa fa-question"></span>
+						</button> -->
 					</span>
 				</div>
 		  </div>
@@ -239,7 +237,7 @@ assetUrl = "/assets/8a9e91f";
 			<!-- <label class="form-label">
 			<strong>Alamat Email</strong>
 			</label> -->
-			<input id="noTelp" class="form-input form-input--block js-show-checkbox " pattern="[0-9]*" data-show="#toBeContacted" type="number" name="donation_data[phone_number]" placeholder="Alamat Email">
+			<input id="emailAddress" class="form-input form-input--block js-show-checkbox " pattern="[0-9]*" data-show="#toBeContacted" type="text" name="donation_data[email_address]" placeholder="Alamat Email">
 		  </div>
 		  <div class="form__row">
 			<!-- <label class="form-label">
@@ -281,7 +279,7 @@ assetUrl = "/assets/8a9e91f";
 					</div>
 				</div>
 			</div>
-			<a data-fancybox data-animation-duration="700" data-src="#donasi" href="javascript:;" class="btn btn--pink btn--large btn--block text-bold margin--normal-v" onclick="ga('send', 'event', 'donate', 'click', 'mobile.campaign-page')">DONASI SEKARANG</a>
+			<a data-fancybox data-options='{"src": "#donasi", "touch": true, "smallBtn" : false}' data-animation-duration="700" data-src="#donasi" href="javascript:;" class="btn btn--pink btn--large btn--block text-bold margin--normal-v" onclick="ga('send', 'event', 'donate', 'click', 'mobile.campaign-page')">DONASI SEKARANG</a>
 		</div>
 	</div>
 	<div class="spacer"></div>
@@ -294,10 +292,11 @@ assetUrl = "/assets/8a9e91f";
 					<img data-cfsrc="https://kitabisa-userupload-01.s3-ap-southeast-1.amazonaws.com/_production/user/137356/23_137356_1504959873_63684_a.jpg" alt="" src="https://kitabisa-userupload-01.s3-ap-southeast-1.amazonaws.com/_production/user/137356/23_137356_1504959873_63684_a.jpg">
 				</figure>
 				<h3 class="pwa-campaign-status__campaigner">
-					<span class="component-toggle--single text-blue text-14">
-					Ridwan Kamil <a class="d-inline"><img src="https://assets.kitabisa.com/images/icon__verified-user.svg" alt=""></a> <span class="material-icons"></span>
+					<span class="component-toggle--single text-14">
+					Ridwan Kamil <a class="d-inline"><img src="https://assets.kitabisa.com/images/icon__verified-user.svg" alt="" style="height: 15px"></a> <span class="material-icons"></span>
 					</span>
 					<small class="text-10 text-black40 margin--xsmall-v">Akun telah terverifikasi</small>
+					<div class="social-network margin--small-t"><img src="images/social-netwok.png"></div>
 				</h3>
 			</div>
 			<div class="col--s12 no-margin-left margin--medium-t">
@@ -306,7 +305,7 @@ assetUrl = "/assets/8a9e91f";
 				</figure>
 				<h3 class="pwa-campaign-status__campaigner">
 					<small class="text-10 text-black40 margin--xsmall-v">Bagian Dari</small>
-					<span class="component-toggle--single text-blue text-14">#PrayForLombok</span>
+					<span class="component-toggle--single text-14">#PrayForLombok</span>
 				</h3>
 			</div>
 		</div>
@@ -360,9 +359,182 @@ assetUrl = "/assets/8a9e91f";
 			 </div>
 		</div>
 	</div>
+	<div class="spacer"></div>
+	<div class="container medium-padding">
+		<div class="col margin-left-3">
+			<div class="col--s8">Donatur (957)</div>
+			<div class="col--s4 align-center pwa-pay-select form-input text-12">
+				<select>
+					<option>Terbaru</option>
+					<option>Terbesar</option>
+				</select>
+			</div>
+		</div>
+		<hr>
+		<div class="comment col">
+			<div class="comment-list">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">AS</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">Andre Shakila</span>
+						<div class="text-14 margin--xsmall-v">Berdonasi sebesar <span class="text-blue">Rp 10.000</span></div>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+						<p class="text-12">Maaf cuman kasih seginih doang soalnya umur aku masih 13 tahun</p>
+					</h3>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="comment-list">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">GB</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">Gahniyyah Hijab</span>
+						<div class="text-14 margin--xsmall-v">Berdonasi sebesar <span class="text-blue">Rp 250.179</span></div>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+						<p class="text-12">Bismillah semoga bermanfaat</p>
+					</h3>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="comment-list">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">AN</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">Anonim</span>
+						<div class="text-14 margin--xsmall-v">Berdonasi sebesar <span class="text-blue">Rp 150.129</span></div>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+						<p class="text-12">Bismillah semoga bermanfaat</p>
+					</h3>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="comment-list">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">IA</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">Ikhwan Akmad</span>
+						<div class="text-14 margin--xsmall-v">Berdonasi sebesar <span class="text-blue">Rp 250.129</span></div>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+					</h3>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="comment-list">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">AN</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">Anonim</span>
+						<div class="text-14 margin--xsmall-v">Berdonasi sebesar <span class="text-blue">Rp 2.150.129</span></div>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+					</h3>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="comment-list">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">AN</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">Anonim</span>
+						<div class="text-14 margin--xsmall-v">Berdonasi sebesar <span class="text-blue">Rp 500.329</span></div>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+					</h3>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="margin--small-v align-center">
+			<a href="#">Lihat Semua Donatur</a>
+		</div>
+	</div>
+	<div class="spacer"></div>
+	<div class="container medium-padding">
+		<div>Bantu share penggalangan dana ini</div>
+		<hr>
+		<div class="col margin-left-3">
+			<div class="col--s6">
+				<a class="btn btn--blue btn--large btn--block" data-fancybox="" data-animation-duration="700" data-src="#donasi" href="javascript:;">GALANG DANA</a>
+			</div>
+			<div class="col--s6">
+				<a href="whatsapp://send?text=Mari turun tangan demi solidaritas kemanusiaan untuk musibah Gempa di Lombok.. Bantu donasi dengan klik https://kitabisa.com/netizenuntuklombok" class="btn btn--block btn--large-pd-tb btn-social-wa share__btn-social flex-center-vh" rel="external" style="padding: 12px 4px;">
+				<span class="fa fa-whatsapp"></span>
+				&nbsp;Kontak Kami
+				</a>
+			 </div>
+		</div>
+	</div>
+	<div class="spacer"></div>
+	<div class="container medium-padding">
+		<div>Komentar (4)</div>
+		<hr>
+		<div class="comment col">
+			<div class="comment-list comment-feeds">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">MR</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">Maria Rara</span>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+					</h3>
+					<p class="text-12">Semoga semua sodara kita yang tertimpa bencana dapat diberi ketabahan, kesehatan jiwa & raga. Semoga mereka semua dalam perlindungan Tuhan.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="comment-list margin--normal-t">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">
+						<img data-cfsrc="https://kitabisa-userupload-01.s3-ap-southeast-1.amazonaws.com/_production/user/137356/23_137356_1504959873_63684_a.jpg" alt="" src="https://kitabisa-userupload-01.s3-ap-southeast-1.amazonaws.com/_production/user/137356/23_137356_1504959873_63684_a.jpg">
+					</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">
+						Ridwan Kamil <a class="d-inline"><img src="https://assets.kitabisa.com/images/icon__verified-user.svg" alt="" style="height: 15px"></a> <span class="material-icons"></span>
+						</span>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+					</h3>
+					<p class="text-12">Hatur Nuhun bu <strong>@MariaRara</strong> dukungannya <strong>#KabehDulur</strong>. Mari saling membantu.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="comment-list comment-feeds">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">BM</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">Bung Momo</span>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+					</h3>
+					<p class="text-12">Semoga semua sodara kita yang tertimpa bencana dapat diberi ketabahan, kesehatan jiwa & raga. Semoga mereka semua dalam perlindungan Tuhan.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="comment-list comment-feeds">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">MR</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">Maria Rara</span>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+					</h3>
+					<p class="text-12">Semoga semua sodara kita yang tertimpa bencana dapat diberi ketabahan, kesehatan jiwa & raga. Semoga mereka semua dalam perlindungan Tuhan.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+			<div class="comment-list comment-feeds">
+				<div class="no-margin-left">
+					<figure class="pwa-campaigner__figure">MI</figure>
+					<h3 class="pwa-campaign-status__campaigner">
+						<span class="component-toggle--single text-14">Michael</span>
+						<small class="text-10 text-black40 margin--xsmall-v">23 Jun 2018 20:30</small>
+						
+					</h3>
+					<p class="text-12">Semoga semua sodara kita yang tertimpa bencana dapat diberi ketabahan, kesehatan jiwa & raga. Semoga mereka semua dalam perlindungan Tuhan.</p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<div class="margin--small-v align-center">
+			<a href="#">Lihat Semua Komentar</a>
+		</div>
+	</div>
 	<div id="campaign-donate-hilite" class="pwa-campaign-donate pwa-campaign-tip__hilite js-campaign-tip__hilite" style="display: none;">
 		<div class="container btn-stiky">
-			<a class="btn btn--pink btn--large btn--block text-bold" data-fancybox data-animation-duration="700" data-src="#donasi" href="javascript:;">DONASI SEKARANG</a>
+			<a class="btn btn--pink btn--large btn--block text-bold" data-fancybox data-options='{"src": "#donasi", "touch": true, "smallBtn" : false}' data-animation-duration="700" data-src="#donasi" href="javascript:;">DONASI SEKARANG</a>
 		</div>
 	</div>
 	<script src="assets/js/vendors/jquery.min.js"></script>
