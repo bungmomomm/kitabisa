@@ -129,7 +129,12 @@ body {
 
 				line-height: normal;
 
-				.col {padding-bottom: 10px;border-bottom: 1px solid #E8E8E8;}
+				.col {
+					padding-bottom: 10px;border-bottom: 1px solid #E8E8E8;
+
+					div:first-child {font-weight: 600;}
+					div:last-child {font-weight: normal;}
+				}
 
 				.text-copied {
 					z-index: 1;
