@@ -137,7 +137,6 @@ body {
 	}
 
 	.comment {
-
 		&-list {
 			background-color: #F8F8F8;
 			border-radius: 4px;
@@ -214,7 +213,17 @@ body {
 			padding: .5em .75em;
 			border-color: #E8E9EB;
 			border-radius: 3px;
+			box-shadow: none;
+			height: 45px;
 		}
+		
+		.input-amount::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+			color: #989898;
+			font-weight: 600;
+		}
+			
+		
+
 		&__row {
 			position: relative;
 			margin-bottom: 15px;
@@ -246,7 +255,7 @@ body {
 				}
 			}
 
-			textarea { resize: none;}
+			textarea { resize: none;height: auto;}
 		}
 		&-info {
 			&--counter {
