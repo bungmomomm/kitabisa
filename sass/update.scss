@@ -114,7 +114,53 @@ body {
 		&__figure {margin-left: 0;}
 	}
 
+	.pwa-donation {
+		&__summary {
+			background-color: #F9F9F9;
+			border: 1px solid #e8e8e8;
+			border-radius: 4px;
+			text-align: left;
+			padding-left: 15px;
+			padding-right: 15px;
+			padding-bottom: 15px;
+
+			&-amount {font-weight: 400;}
+			li {
+
+				line-height: normal;
+
+				.col {padding-bottom: 10px;border-bottom: 1px solid #E8E8E8;}
+
+				.text-copied {
+					z-index: 1;
+					font-weight: 600;
+					text-transform: uppercase;
+					margin-top: 10px;
+				}
+			}
+			li:last-child .col {border:none;padding-bottom: 0;}
+		}
+	}
+
+	.copy-trigger {
+
+		position: relative;
+
+		.text-copied {
+			display: inline;
+			position: absolute;
+			right: 10px;
+			top: 5px;
+			z-index: 1;
+			font-weight: 600;
+			text-transform: uppercase;
+		}
+	}
+
 	.d-inline {display: inline-block;}
+	.d-block {display: block;}
+
+	.white-bg {background-color: $clr-white;}
 
 	.btn {
 		border-radius: 4px;
@@ -289,9 +335,25 @@ body {
 	    margin-top: 1px;
 	}
 
+	.tooltip {
+		.tooltip {
+			&__body {
+				background-color: #FCF28F;
+				box-shadow: none;
+				padding: 10px;
+				border-radius: 4px;
+
+				.material-icons {
+					vertical-align: top;
+				}
+			}
+		}
+	}
+
 	.clr-softgrey {color: $clr-softgrey;}
 
 	.text-semibold {font-weight: 600;}
+	
 
 	.label-text {font-size: 12px;}
 

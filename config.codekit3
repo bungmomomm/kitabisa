@@ -196,6 +196,17 @@
 		"oAP": "\/campaign-detail.html",
 		"oF": 0
 		},
+	"\/images\/bca.png": {
+		"ft": 32768,
+		"iS": 10997,
+		"oA": 0,
+		"oAP": "\/images\/bca.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logo-bca.png": {
 		"ft": 32768,
 		"iS": 4058,
@@ -238,6 +249,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/other-donation.png": {
+		"ft": 32768,
+		"iS": 231375,
+		"oA": 0,
+		"oAP": "\/images\/other-donation.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/images\/social-netwok.png": {
@@ -288,6 +310,13 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/summary.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/summary.html",
+		"oF": 0
 		}
 	},
 "hooks": [
