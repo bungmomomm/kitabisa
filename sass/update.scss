@@ -216,13 +216,6 @@ body {
 			box-shadow: none;
 			height: 45px;
 		}
-		
-		.input-amount::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-			color: #989898;
-			font-weight: 600;
-		}
-			
-		
 
 		&__row {
 			position: relative;
@@ -247,9 +240,15 @@ body {
 					border-color: #F8F8F8;
 					text-align: right;
 					padding-right: 15px;
+					height: auto;
 
 					&:focus, &:active, &:visited {
 						color: #4a4a4a;
+					}
+
+					&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+						color: #989898;
+						font-weight: 600;
 					}
 
 				}
@@ -291,6 +290,8 @@ body {
 	}
 
 	.clr-softgrey {color: $clr-softgrey;}
+
+	.text-semibold {font-weight: 600;}
 
 	.label-text {font-size: 12px;}
 
