@@ -29,6 +29,26 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/assets\/images\/arrow-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/arrow-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/clear.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/clear.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/site-logo-white.png": {
 		"ft": 32768,
 		"iS": 3686,
@@ -207,6 +227,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/ktp-selfie.png": {
+		"ft": 32768,
+		"iS": 214996,
+		"oA": 0,
+		"oAP": "\/images\/ktp-selfie.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/logo-bca.png": {
 		"ft": 32768,
 		"iS": 4058,
@@ -316,6 +347,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/summary.html",
+		"oF": 0
+		},
+	"\/verifikasi.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/verifikasi.html",
 		"oF": 0
 		}
 	},
