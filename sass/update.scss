@@ -398,6 +398,7 @@ body {
    }
    
    .accordion li.default .submenu {display: block;}
+
    /**
 	* Submenu
 	-----------------------------*/
@@ -426,6 +427,17 @@ body {
 	.submenu a:hover {
 		background: #b63b4d;
 		color: #FFF;
+	}
+
+	.vcode-input {
+		width: 40px;
+		height: 40px;
+		text-align: center;
+		font-size: 24px;
+		border: none;
+		border-bottom: 1px solid #d8d8d8;
+		background-color: transparent;
+		margin: 10px 6px 15px;
 	}
 
 	.input-file {

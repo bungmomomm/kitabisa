@@ -180,9 +180,16 @@ assetUrl = "/assets/8a9e91f";
                 <div class="link">Verifikasi nomor handphone</div>
                 <ul class="submenu">
                     <li class="large-padding">
-                        <p>Masukkan 6 digit kode verifikasi yang telah dikirim ke nomor, <span class="text-blue">ubah nomor handphone?</span></p>
+                        <p>Masukkan 6 digit kode verifikasi yang telah dikirim ke nomor XXXXXXXX7788, <span class="text-blue">ubah nomor handphone?</span></p>
                         <div class="form__row margin--normal-t">
-                            <input id="verification_number" class="form-input form-input--block js-show-checkbox " pattern="[0-9]*" data-show="#toBeContacted" type="number" name="verification_number">
+                                <div class="vcode" id="vcode">
+                                        <input type="phone" class="vcode-input" maxlength="1" id="vcode1">
+                                        <input type="phone" class="vcode-input" maxlength="1">
+                                        <input type="phone" class="vcode-input" maxlength="1">
+                                        <input type="phone" class="vcode-input" maxlength="1">
+                                        <input type="phone" class="vcode-input" maxlength="1">
+                                        <input type="phone" class="vcode-input" maxlength="1">
+                                </div>
                         </div>
                         <button class="btn btn--block btn--large btn--blue align-center margin--normal-b">
                             Verifikasi
@@ -219,7 +226,7 @@ assetUrl = "/assets/8a9e91f";
                 <ul class="submenu">
                         <li class="large-padding">
                                 <p>Contoh dan rekomendasi foto selfie:</p>
-                                <p><img src="images/ktp-selfie.png" width="100%"></p>
+                                <div class="margin--medium-v"><img src="images/ktp-selfie.png" width="100%"></div>
                                 <ul>
                                     <li>Pegang KTP anda dibawah dagu, jangan menutupi wajah.</li>                                        </li>
                                     <li>Pastikan wajah dan KTP anda didalam frame foto.</li>
@@ -242,6 +249,42 @@ assetUrl = "/assets/8a9e91f";
 
     <script type="text/javascript"> 
         jQuery(document).ready(function($) {
+
+            var vcode = (function(){
+                //cache dom
+                var $inputs = $("#vcode").find("input");
+
+                //bind events
+                $inputs.on('keyup', processInput);
+                
+                //define methods
+                function processInput(e) {
+                    var x = e.charCode || e.keyCode;
+                    if( (x == 8 || x == 46) && this.value.length == 0) {
+                    var indexNum = $inputs.index(this);
+                    if(indexNum != 0) {
+                        $inputs.eq($inputs.index(this) - 1).focus();
+                    }
+                    }
+                    
+                    if( ignoreChar(e) ) 
+                    return false;
+                    else if (this.value.length == this.maxLength) {
+                    $(this).next('input').focus();
+                    }
+                }
+                function ignoreChar(e) {
+                    var x = e.charCode || e.keyCode;
+                    if (x == 37 || x == 38 || x == 39 || x == 40 )
+                    return true;
+                    else 
+                    return false
+                }
+                
+                })();
+
+
+
             (function() {
   
                 'use strict';
