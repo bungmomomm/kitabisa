@@ -11,12 +11,13 @@
 <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png" sizes="152x152">
 <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/favicon.png">
+<meta name="description" content="Mari turun tangan demi solidaritas kemanusiaan untuk musibah Gempa di Lombok." />
 <script type="50c9aaccc6ecf32e24450e42-text/javascript">
 /*<![CDATA[*/
 assetUrl = "/assets/8a9e91f";
 /*]]>*/
 </script>
-<title>Kitabisa! - Verifikasi User</title>
+<title>Kitabisa! - Simpati Jawa Barat &amp; Netizen untuk Gempa Lombok</title>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://assets.kitabisa.com/css/main.min.css?v=rev_cd9e3ce">
 <!-- Stylesheets -->
@@ -28,14 +29,23 @@ assetUrl = "/assets/8a9e91f";
 <link rel="stylesheet" href="assets/js/vendors/fancybox/jquery.fancybox.min.css">
 <link rel="manifest" href="/manifest.json">
 </head>
-<body id="site-body" class="grey-bg">
+<body id="site-body">
 	<header class="pwa-header">
 		<button id="pwaNavBtn" class="btn btn--hamburger push-left" onclick="ga('send', 'event', 'mobile_site-hamburger_menu-header', 'click', 'mobile_site-hamburger_menu-header')">
-			<img src="assets/images/arrow-left.svg">
+			<img src="https://assets.kitabisa.com/images/menu.svg">
 		</button>
-        <a href="/" class="pwa-header__link">
-            <span class="text-16 text-white">Verifikasi User</span>
-        </a>
+		<a href="/" class="pwa-header__link">
+			<script type="text/javascript">
+				//<![CDATA[
+				window.__mirage2 = {petok:"c1deeab5ea01547936e0383fb4e51fb17ef8194e-1535353528-1800"};
+				//]]>
+			</script>
+			<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
+			<img data-cfsrc="asssets/images/site-logo-white.png" alt="" src="assets/images/site-logo-white.png">
+		</a>
+		<button class="btn btn--search push-right" onclick="ga('send', 'event', 'mobile_site-search-header', 'click', 'mobile_site-search-header')">
+			<img src="https://assets.kitabisa.com/images/search.svg">
+		</button>
 		<div class="pwa-nav-new">
 			<div class="pwa-nav__header">
 				<button id="pwaNavClose" onclick="ga('send', 'event', 'mobile_site-hamburger_menu_close-header', 'click', 'mobile_site-hamburger_menu_close-header')">
@@ -169,167 +179,56 @@ assetUrl = "/assets/8a9e91f";
 					</li>
 				</ul>
 			</div>
-    </header>
-    <div class="container-fluid large-padding white-bg" style="box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);z-index: 2;position: relative;">
-        <div class="text-semibold text-16">Verifikasi User</div>
-        <span class="text-12">Lengkapi data agar donasi dapat dicairkan</span>
+	</header>
+	<div class="container medium-padding">
+        <h4 class="margin--medium-v">Masuk ke akun Anda</h4>
+        <div class="align-center">
+                <div class="form__row">
+                    <input id="nama_lengkap" class="form-input form-input--block js-show-checkbox " data-show="#nama_lengkap" type="text" name="nama_lengkap" placeholder="Nomor Whatsapp atau Email Anda">
+                </div>
+                <div class="form__row">
+                        <input id="password" class="form-input form-input--block js-show-checkbox " data-show="#password" type="text" name="password" placeholder="Password">
+                </div>
+                <div class="col margin--normal-b margin-left-1">
+                    <div class="col--s6">
+                            <div class="checkbox-wrapper--alt align-top">
+                                    <input id="anonymCheck" type="checkbox" name="donation_data[anonymous]" onclick="ga('send', 'event', 'mobile_site-anonim_checked-donation_flow', 'click', 'mobile_site-anonim_checked-donation_flow')">
+                                    <label for="anonymCheck" class="checkbox-content">
+                                    <span class="material-icons">check</span>
+                                    </label>
+                                    <span class="label-text pos-r clr-softgrey">
+                                        Ingat saya
+                                        <!-- <button type="button" class="modal-trigger" data-target="#tentangAnonim">
+                                            <span class="fa fa-question"></span>
+                                        </button> -->
+                                    </span>
+                            </div>
+                    </div>
+                    <div class="col--s6 align-right">
+                        <a href="#" class="text-12">Lupa password?</a>
+                    </div>
+                </div>
+                <button class="btn btn--block btn--large btn--blue align-center">
+                    MASUK
+                </button>
+                <p>Belum punya akun Kitabisa? <a href="login.html">Daftar</a></p>
+        </div>
     </div>
-    <div class="container-fluid large-padding no-padding-left no-padding-right" style="padding-top:0;">
-        <ul id="accordion" class="accordion">
-            <li class="default open">
-                <div class="link">Verifikasi nomor handphone</div>
-                <ul class="submenu">
-                    <li class="large-padding">
-                        <p>Masukkan 6 digit kode verifikasi yang telah dikirim ke nomor XXXXXXXX7788, <span class="text-blue">ubah nomor handphone?</span></p>
-                        <div class="form__row margin--normal-t">
-                                <div class="vcode" id="vcode">
-                                        <input type="phone" class="vcode-input" maxlength="1" id="vcode1">
-                                        <input type="phone" class="vcode-input" maxlength="1">
-                                        <input type="phone" class="vcode-input" maxlength="1">
-                                        <input type="phone" class="vcode-input" maxlength="1">
-                                        <input type="phone" class="vcode-input" maxlength="1">
-                                        <input type="phone" class="vcode-input" maxlength="1">
-                                </div>
-                        </div>
-                        <button class="btn btn--block btn--large btn--blue align-center margin--normal-b">
-                            Verifikasi
-                        </button>
-                        <p>Tidak menerima kode verifikasi?</p>
-                        <p><a href="#" class="text-blue">Kirim ulang kode lewat sms</a></p>
-                    </li>
-                </ul>
-            </li>
-            <li>
-                <div class="link">Upload foto KTP</div>
-                <ul class="submenu">
-                        <li class="large-padding">
-                            <select class="form-input margin--normal-b" style="width:100%">
-                                <option>KTP</option>
-                                <option>SIM</option>
-                                <option>Paspor</option>
-                            </select>
-                            <ul>
-                                <li>Pastikan KTP anda didalam frame foto.</li>
-                                <li>Pastikan KTP anda masih berlaku.</li>
-                                <li>Pastikan yang anda upload foto KTP, bukan hasil scan atau fotocopy.</li>
-                            </ul>
-                            <input type="file" name="file" id="file" class="input-file">
-                            <label for="file" class="btn btn--block btn--large btn--blue margin--normal-v js-labelFile">
-                                <i class="icon fa fa-check"></i>
-                                <span class="js-fileName">UPLOAD FOTO KTP</span>
-                            </label>
-                        </li>
-                </ul>
-            </li>
-            <li>
-                <div class="link">Upload foto selfie dengan KTP</div>
-                <ul class="submenu">
-                        <li class="large-padding">
-                                <p>Contoh dan rekomendasi foto selfie:</p>
-                                <div class="margin--medium-v"><img src="images/ktp-selfie.png" width="100%"></div>
-                                <ul>
-                                    <li>Pegang KTP anda dibawah dagu, jangan menutupi wajah.</li>                                        </li>
-                                    <li>Pastikan wajah dan KTP anda didalam frame foto.</li>
-                                    <li>Pastikan wajah anda dan KTP tidak blur.</li>
-                                    <li>Pastikan mengambil foto dari kamera bukan hasil scan atau fotocopy.</li>
-                                </ul>
-                                <input type="file" name="file" id="file" class="input-file">
-                                <label for="file" class="btn btn--block btn--large btn--blue margin--normal-v js-labelFile">
-                                    <i class="icon fa fa-check"></i>
-                                    <span class="js-fileName">UPLOAD FOTO SELFI DENGAN KTP</span>
-                                </label>
-                            </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+	<div class="spacer"></div>
+	<div class="container medium-padding">
+            <div class="form__row">
+                    <a class="btn btn--block btn-social btn-social-fb btn--shadow base-padding-left" onclick="ga('send', 'event', 'login-with-facebook_login-page', 'click', 'login-with-facebook_login-page');" href="/facebook-signin">
+                        <span class="btn-social__image"><img src="https://s3-ap-southeast-1.amazonaws.com/assets-kitabisa-cc/images/icons/icon_small_facebook.svg" class="share-modal__icon--wa" alt=""></span>
+                        <span class="text-14 large-margin-left">Daftar dengan Facebook</span>
+                    </a> 
+                    <div class="btn btn--block btn-social btn-google-new btn--shadow margin--normal-t" id="googleLogin" data-url="https://m.kitabisa.com/site/googleSignIn/?id_token=">
+                        <span class="btn-social__image">
+                            <img src="https://s3-ap-southeast-1.amazonaws.com/assets-kitabisa-cc/images/icons/icon_small_google.svg" class="share-modal__icon--wa" alt="">
+                        </span>
+                        <span class="text-14 large-margin-left">Daftar dengan Google</span>
+                    </div>
+            </div>
+	</div>
 	<script src="assets/js/vendors/jquery.min.js"></script>
-    <script src="assets/js/vendors/owlcarousel/owl.carousel.min.js"></script>
-    <script src="assets/js/vendors/fancybox/jquery.fancybox.min.js"></script>
-
-    <script type="text/javascript"> 
-        jQuery(document).ready(function($) {
-
-            var vcode = (function(){
-                //cache dom
-                var $inputs = $("#vcode").find("input");
-
-                //bind events
-                $inputs.on('keyup', processInput);
-                
-                //define methods
-                function processInput(e) {
-                    var x = e.charCode || e.keyCode;
-                    if( (x == 8 || x == 46) && this.value.length == 0) {
-                    var indexNum = $inputs.index(this);
-                    if(indexNum != 0) {
-                        $inputs.eq($inputs.index(this) - 1).focus();
-                    }
-                    }
-                    
-                    if( ignoreChar(e) ) 
-                    return false;
-                    else if (this.value.length == this.maxLength) {
-                    $(this).next('input').focus();
-                    }
-                }
-                function ignoreChar(e) {
-                    var x = e.charCode || e.keyCode;
-                    if (x == 37 || x == 38 || x == 39 || x == 40 )
-                    return true;
-                    else 
-                    return false
-                }
-                
-                })();
-
-
-
-            (function() {
-  
-                'use strict';
-
-                $('.input-file').each(function() {
-                    var $input = $(this),
-                        $label = $input.next('.js-labelFile'),
-                        labelVal = $label.html();
-                    
-                $input.on('change', function(element) {
-                    var fileName = '';
-                    if (element.target.value) fileName = element.target.value.split('\\').pop();
-                    fileName ? $label.addClass('has-file').find('.js-fileName').html(fileName) : $label.removeClass('has-file').html(labelVal);
-                });
-                });
-
-            })();
-
-            $(function() {
-                var Accordion = function(el, multiple) {
-                    this.el = el || {};
-                    this.multiple = multiple || false;
-
-                    // Variables privadas
-                    var links = this.el.find('.link');
-                    // Evento
-                    links.on('click', {el: this.el, multiple: this.multiple}, this.dropdown)
-                }
-
-                Accordion.prototype.dropdown = function(e) {
-                    var $el = e.data.el;
-                        $this = $(this),
-                        $next = $this.next();
-
-                    $next.slideToggle();
-                    $this.parent().toggleClass('open');
-
-                    if (!e.data.multiple) {
-                        $el.find('.submenu').not($next).slideUp().parent().removeClass('open');
-                    };
-                }	
-
-                var accordion = new Accordion($('#accordion'), false);
-            });
-        });
-     </script>
 </body>
 </html>
