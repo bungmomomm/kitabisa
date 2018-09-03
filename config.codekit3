@@ -311,13 +311,6 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
-	"\/login.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/login.html",
-		"oF": 0
-		},
 	"\/README.md": {
 		"cB": 0,
 		"cS": 0,
@@ -348,6 +341,13 @@
 		"oF": 2,
 		"oS": 3,
 		"uL": 1
+		},
+	"\/signin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/signin.html",
+		"oF": 0
 		},
 	"\/signup.html": {
 		"cB": 0,
