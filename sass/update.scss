@@ -227,6 +227,15 @@ body {
 			position: relative;
 			vertical-align: bottom;
 
+			&-middle {
+				vertical-align: middle !important;
+				&:before {
+					display: none !important;
+				}
+
+				h4 {margin-top: 0;}
+			}
+
 			&:before {
 				background-color: #e8e8e8;
 				content:'';
