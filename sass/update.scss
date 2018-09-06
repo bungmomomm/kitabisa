@@ -85,6 +85,11 @@ body {
 	}
 
 	.pwa-campaign {
+
+		&-donate {
+			border-top: 1px solid #e8e8e8;
+		}
+
 		&-status {
 			border-bottom: none;
 			&__campaigner {
@@ -468,11 +473,45 @@ body {
 		&-fluid {width: 100%;}
 	}
 
+	.box {
+		border-radius: 4px;
+	}
+
+	#cd-timeline {
+
+		margin-top: 1em;
+		margin-left: 0;
+
+		div:nth-child(2) {margin-top: 0;}
+		div:last-child {margin-bottom: 0;}
+	}
+
+	.cd-timeline {
+
+		&-content {
+			border: none;
+
+			&.in-mobile p {
+				font-size: 13px;
+			}
+		}
+
+		&-block {
+			margin: 1.5em 0;
+		}
+
+		&-block--blue .cd-timeline-img {
+			background-color: $clr-primary;
+		}
+	}
+
 	.d-inline {display: inline-block;}
 	.d-block {display: block;}
 
 	.white-bg {background-color: $clr-white;}
 	.grey-bg {background-color: $clr-lightgrey;}
+
+	.clr-softgrey {color: $clr-softgrey;}
 
 	.btn {
 		font-weight: 600;
@@ -490,11 +529,19 @@ body {
 		&-google-new {
 			background-color: #F7F7F7;
 		}
+
+		&--ghost-blue {
+			background-color: $clr-white;
+			border: 1px solid $clr-primary;
+			color: $clr-primary;
+		}
 	}
 
-	.clr-softgrey {color: $clr-softgrey;}
+	.text {
+		&-semibold {font-weight: 600;}
 
-	.text-semibold {font-weight: 600;}
+		&-underline {text-decoration: underline;}
+	}
 	
 	.label-text {font-size: 12px;}
 

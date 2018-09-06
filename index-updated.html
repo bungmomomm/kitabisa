@@ -257,7 +257,18 @@ assetUrl = "/assets/8a9e91f";
 			<textarea name="donation_data[comment]" class="form-input form-input--block input-max-char" rows="4" placeholder="Silahkan tulis laporan secara detail dan mohon tinggalkan informasi alamat email / nomor telpon Anda." data-char="140" maxlength="140"></textarea>
 		</div> 
 		<a href="summary.html" class="btn btn--blue btn--large btn--block text-bold">KIRIM LAPORAN</a>
-	</div>
+    </div>
+    <!-- Need Update -->
+	<div style="display: none;" id="form-update" class="animated-modal align-left">
+            <h4>Tanya Kabar Terbaru</h4>
+            <div class="form__row">
+                    <!-- <label class="form-label">
+                        <strong>Alamat Email</strong>
+                        </label> -->
+                    <input id="emailAddress" class="form-input form-input--block js-show-checkbox " data-show="#toBeContacted" type="text" name="donation_data[email_address]" placeholder="Alamat Email">
+            </div>
+            <a href="summary.html" class="btn btn--blue btn--large btn--block text-bold">KIRIM</a>
+        </div>
 
 	<div class="container small-padding-top">
 		<div class="pwa-campaign-status">
@@ -316,22 +327,57 @@ assetUrl = "/assets/8a9e91f";
 	</div>
 	<div class="spacer"></div>
 	<div id="info-campaign" class="container medium-padding">
-		<div class="col--s6 align-center"><span>Cerita Lengkap</span></div>
-		<div class="col--s6 align-center"><a href="index-updated.html#info-campaign"><strong>Kabar Terbaru (3)</strong></a></div>
+        <div class="col--s6 align-center"><a href="index.html#info-campaign"><strong>Cerita Lengkap</strong></a></div>
+		<div class="col--s6 align-center"><span>Kabar Terbaru (3)</span></div>
+		
 		<div class="clearfix"></div>
-		<hr>
-		<p>Assalamualaikum, saudaraku sekalian di manapun berada.</p>
-		<p>Musibah gempa yang menimpa saudara-saudari kita di Lombok dan sekitarnya sungguh menyita perhatian. Data sementara yang dirilis oleh Badan Nasional Penanggulangan Bencana (BNPB) pada 6 agustus 2018 menyebut bahwa 91 orang meninggal dunia dan 209 orang luka-luka karena musibah ini.</p>
-		<p>Dalam waktu sekejap, ribuan warga Lombok kehilangan rumahnya. Banyak juga warga yang kehilangan orangtua, anak, dan saudaranya karena meninggal dunia tertimpa puing bangunan. Dalam sekejap pula, duka mendalam menyeruak di sana.</p>
-		<p>Atas nama rakyat Jawa Barat dan saudara sebangsa setanah air di manapun berada, saya mengajak anda semua: mari kita turun tangan membantu mereka. Jarak bukan hambatan untuk melakukan panggilan kemanusiaan.
-		Donasi yang anda titipkan lewat campaign ini akan saya salurkan lewat organisasi Aksi Cepat Tanggap (ACT) dan Dompet Dhuafa (DD) sesegera mungkin karena banyak kebutuhan warga Lombok yang harus segera dipenuhi.</p>
-		<p>Berikut cara berdonasi :</p>
-		<ol>
-			<li>Klik tombol DONASI SEKARANG"</li>
-			<li>Masukan nominal donasi</li>
-			<li>Pilih metode pembayaran (Transfer Bank, Kartu Kredit, & GO - PAY)</li>
-			<li>Sebarkan link ini seluas-luasnya lewat grup WA dan platform media sosial anda</li>
-		</ol>
+        <hr>
+        <a class="btn btn--ghost-blue btn--large btn--block text-bold margin--normal-v" data-fancybox data-options='{"src": "#form-update", "touch": true, "smallBtn" : false}' data-animation-duration="700" data-src="#form-update" href="javascript:;">Tanya Kabar Terbaru</a>
+		<section id="cd-timeline" class="cd-container in-mobile no-over" data-height="130">
+                <div class="js-target-timeline-border-dashed"></div>
+                <div class="cd-timeline-block cd-timeline-block--blue in-mobile">
+                    <div class="cd-timeline-overlay"></div>
+                    <div class="cd-timeline-img cd-picture"></div>
+                    <div class="cd-timeline-content in-mobile">
+                        <div class="cd-timeline-content__heading">
+                            <div class="cd-timeline-content__heading-first in-mobile">
+            <small>3 Sep 2018 12:05</small>
+                                <h4>Pencairan Dana Rp 400.000.000</h4>
+                                <p>Ke rekening BCA *** *** 8999 a/n Yayasan Kita Bisa</p>
+                            </div>
+                        </div>
+                        <p>Rencana penggunaan dana: Dana sebesar 400 Juta akan disalurkan untuk campaign https://kitabisa.com/bandung4lombok , Rencananya tanggal 4 September 2018 tim relawan Bandung akan berangkat ke Lombok.</p>
+                    </div>
+                </div>
+                <div class="cd-timeline-block cd-timeline-block--blue in-mobile">
+                    <div class="cd-timeline-overlay"></div>
+                    <div class="cd-timeline-img cd-picture"></div>
+                    <div class="cd-timeline-content in-mobile">
+                        <div class="cd-timeline-content__heading">
+                            <div class="cd-timeline-content__heading-first in-mobile">
+            <small>31 Aug 2018 17:44</small>
+                                <h4>Pencairan Dana Rp 100.000.000</h4>
+                                <p>Ke rekening BCA *** *** 8999 a/n Yayasan Kita Bisa</p>
+                            </div>
+                        </div>
+                        <p>Rencana penggunaan dana: Uang 100 juta rupiah ini akan diamanahkan kepada relawan musisi save lombok asal Bandung untuk kemudian disalurkan kepada saudara-saudara kita korban bencana gempa di Lombok.</p>
+                    </div>
+                </div>
+                <div class="cd-timeline-block cd-timeline-block--blue in-mobile">
+                    <div class="cd-timeline-overlay"></div>
+                    <div class="cd-timeline-img cd-picture"></div>
+                    <div class="cd-timeline-content in-mobile">
+                        <div class="cd-timeline-content__heading">
+                            <div class="cd-timeline-content__heading-first in-mobile">
+            <small>21 Aug 2018 13:26</small>
+                                <h4>Pencairan Dana Rp 1.030.000.000</h4>
+                                <p>Ke rekening BCA *** *** 8999 a/n Yayasan Kita Bisa</p>
+                            </div>
+                        </div>
+                        <p>Rencana penggunaan dana: Mau di input ke dompe kebaikan lalu di donasikan ke campaign dengan judul : 1. DARURAT! Bantu Ribuan Pengungsi Gempa Lombok 2. Bantu Sekolah Darurat di Lombok</p>
+                    </div>
+                </div>
+            </section>
 		<div class="box box--semi-gray pwa-campaign-disclaimer base-margin-top">
 			<small>Disclaimer:
 			Informasi dan opini yang tertulis di halaman campaign ini adalah milik campaigner (pihak yang menggalang dana) dan tidak mewakili Kitabisa.</small>
