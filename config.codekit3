@@ -209,11 +209,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/js\/vwo.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/vwo-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"\/campaign-detail.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/campaign-detail.html",
+		"oF": 0
+		},
+	"\/campaign-detail__desktop.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/campaign-detail__desktop.html",
 		"oF": 0
 		},
 	"\/images\/bca.png": {
