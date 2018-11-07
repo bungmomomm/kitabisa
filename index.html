@@ -204,7 +204,7 @@ assetUrl = "/assets/8a9e91f";
 		</div>
 		<div class="form__row change-payment margin--medium-t">
 			<div class="col align-left margin-left-3">
-				<div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/logo-bca.png" width="50"></span><span>Transfer BCA</span>
+				<div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/logo-gopay.png" width="50"></span><span>GO-PAY</span>
 				</div>
 				<div class="col--s2"><a href="#" class="text-blue text-bold">GANTI</a>
 				</div>
@@ -231,7 +231,7 @@ assetUrl = "/assets/8a9e91f";
 				</label> -->
 			<input id="emailAddress" class="form-input form-input--block js-show-checkbox " data-show="#toBeContacted" type="text" name="donation_data[email_address]" placeholder="No. Handphone atau Alamat Email">
 		</div>
-		<div class="form__row">
+		<div class="form__row no-margin-bottom" style="margin-bottom: 5px !important;">
 			<!-- <label class="form-label">
 					<strong>Dukungan (opsional)</strong>
 					<button type="button" class="modal-trigger" data-target="#tentangKomentar">
@@ -244,6 +244,27 @@ assetUrl = "/assets/8a9e91f";
 			</span>
 			<textarea name="donation_data[comment]" class="form-input form-input--block input-max-char" rows="3" placeholder="Tulis dukungan atau doa (opsional), contoh: Semoga cepat sembuh ya!" data-char="140" maxlength="140"></textarea>
 		</div> 
+		<div class="form__row align-left">
+			<label class="form-label">Apakah Anda mengenal langsung <strong>Cikal Ringgin Paneduh</strong> sebagai penggalang dana?</label>
+			<div class="js-toggle-another-radio">
+				<div class="flex-el">
+					<div class="radio-custom radio-custom--bordered flex-el__item no-margin-bottom">
+						<input type="radio" id="kenalCampaigner" name="donation_data[campaigner_relation]" class="js-isToggle" value="yes" checked onclick="ga('send', 'event', 'yes-familiar', 'click', 'mobile.donate')">
+							<label for="kenalCampaigner">
+								<span class="radio-custom__toggle"></span>
+								<span class="base-margin-left text-semibold">KENAL</span>
+							</label>
+								</div>
+								<div class="radio-custom radio-custom--bordered flex-el__item no-margin-bottom small-margin-left--i">
+									<input type="radio" id="tidakKenalCampaigner" name="donation_data[campaigner_relation]" class="js-isToggle" value="no" onclick="ga('send', 'event', 'not-familiar', 'click', 'mobile.donate')">
+									<label for="tidakKenalCampaigner">
+									<span class="radio-custom__toggle"></span>
+									<span class="base-margin-left text-semibold">TIDAK</span>
+						</label>
+					</div>
+				</div>
+			</div>
+		</div>
 		<a href="summary.html" class="btn btn--pink btn--large btn--block text-bold">LANJUT PEMBAYARAN</a>
 	</div>
 	<!-- Report -->
@@ -336,7 +357,7 @@ assetUrl = "/assets/8a9e91f";
 			<small>Disclaimer:
 			Informasi dan opini yang tertulis di halaman campaign ini adalah milik campaigner (pihak yang menggalang dana) dan tidak mewakili Kitabisa.</small>
 		</div>
-		<div class="margin--normal-t"><a data-fancybox data-options='{"src": "#report", "touch": true, "smallBtn" : false}' data-animation-duration="700" data-src="#donasi" href="javascript:;" class="clr-softgrey text-underline"><small>Penggalangan dana ini mencurigakan? Laporkan</small></a></div>
+		<div class="margin--normal-t text-center"><a data-fancybox data-options='{"src": "#report", "touch": true, "smallBtn" : false}' data-animation-duration="700" data-src="#donasi" href="javascript:;" class="clr-softgrey text-underline"><small>Penggalangan dana ini mencurigakan? Laporkan</small></a></div>
 	</div>
 	<div class="spacer"></div>
 	<div class="container medium-padding">
