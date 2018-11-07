@@ -332,6 +332,13 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/index-loggedin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/index-loggedin.html",
+		"oF": 0
+		},
 	"\/index-updated.html": {
 		"cB": 0,
 		"ft": 8192,
