@@ -412,6 +412,13 @@
 		"oAP": "\/signup.html",
 		"oF": 0
 		},
+	"\/summary-desktop.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/summary-desktop.html",
+		"oF": 0
+		},
 	"\/summary.html": {
 		"cB": 0,
 		"ft": 8192,
