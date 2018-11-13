@@ -206,21 +206,55 @@ assetUrl = "/assets/8a9e91f";
 			<div class="col align-left margin-left-3">
 				<div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/logo-gopay.png" width="50"></span><span>GO-PAY</span>
 				</div>
-				<div class="col--s2" style="margin-left:0;"><a href="#" class="text-blue text-bold">GANTI</a>
+				<div class="col--s2" style="margin-left:0;"><a href="#" id="btn-ganti" class="text-blue text-bold">GANTI</a>
+				</div>
+			</div>
+			<div class="pwa-pay-choose" style="display:none;">
+				<div class="pwa-pay-choose__body">
+					<ul class="list-nostyle payment-opt">
+						<li class="payment-opt__item radio-check">
+							<input type="radio" value="20" class="cust-radio" id="20" checked="">
+							<label for="bank-bca">GO-PAY</label>
+						</li>
+						<li class="payment-opt__item">
+							<input type="radio" value="19" class="cust-radio" id="19">
+							<label for="bank-bca">Transfer BCA</label>
+						</li>
+						<li class="payment-opt__item">
+							<input type="radio" value="4" class="cust-radio" id="4">
+							<label for="bank-bca">Transfer BNI</label>
+						</li>
+						<li class="payment-opt__item">
+							<input type="radio" value="17" class="cust-radio" id="17">
+							<label for="bank-bca">Transfer BNI Syariah</label>
+						</li>
+						<li class="payment-opt__item">
+							<input type="radio" value="6" class="cust-radio" id="6">
+							<label for="bank-bca">Transfer BRI</label>
+						</li>
+						<li class="payment-opt__item">
+							<input type="radio" value="5" class="cust-radio" id="5">
+							<label for="bank-bca">Transfer Mandiri</label>
+						</li>
+						<li class="payment-opt__item">
+							<input type="radio" value="8" class="cust-radio" id="8">
+							<label for="bank-bca">Credit Card</label>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
 		<div class="form__row">
 			<input id="namalengkap" class="form-input form-input--block js-show-checkbox " type="text" name="donation_data[nama_lengkap]" value="Jonathan Christie" placeholder="Nama Lengkap">
-			<div class="checkbox-wrapper--alt small-margin-top align-top">
+			<div class="checkbox-wrapper--alt small-margin-top align-top>
 				<input id="anonymCheck" type="checkbox" name="donation_data[anonymous]" onclick="ga('send', 'event', 'checkbox-anonim', 'click', 'desktop.donate')">
 				<label for="anonymCheck" class="checkbox-content"><span class="material-icons">check</span></label>
 				<span class="label-text pos-r">Sembunyikan identitas saya (Anonim)</span>
 			</div>
 		</div>
-		<!-- <div class="form__row">
-			<input id="emailAddress" class="form-input form-input--block js-show-checkbox " data-show="#toBeContacted" type="text" name="donation_data[email_address]" placeholder="No. Handphone atau Alamat Email">
-		</div> -->
+		<div class="form__row">
+			<input id="emailAddress" class="form-input form-input--block js-show-checkbox " value="085972131237" data-show="#toBeContacted" type="text" name="donation_data[email_address]" placeholder="No. Handphone atau Alamat Email">
+		</div>
 		<div class="form__row no-margin-bottom" style="margin-bottom: 5px !important;">
 			<!-- <label class="form-label">
 					<strong>Dukungan (opsional)</strong>
@@ -504,6 +538,10 @@ assetUrl = "/assets/8a9e91f";
             });
 
             $(".pwa-campaign__barfill").css({ 'width': "92%" });
+
+			$('#btn-ganti').on('click', function(event) {        
+            	$('.pwa-pay-choose').show();
+        	});
 
         });
 
