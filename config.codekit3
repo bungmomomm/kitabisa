@@ -233,6 +233,13 @@
 		"oAP": "\/campaign-detail__desktop.html",
 		"oF": 0
 		},
+	"\/contribution-desktop--notitle.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contribution-desktop--notitle.html",
+		"oF": 0
+		},
 	"\/contribution-desktop.html": {
 		"cB": 0,
 		"ft": 8192,
