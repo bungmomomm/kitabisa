@@ -59,6 +59,10 @@ body#site-body {
 		position: relative;
 	}
 
+	.main-col {
+		.project-title {margin-bottom: 1em;max-width: 100% !important;}
+	}
+
 	.side-col {
 		/* padding-left: 1.666em; */
 		position: fixed;
