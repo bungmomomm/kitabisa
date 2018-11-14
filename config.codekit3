@@ -247,11 +247,77 @@
 		"oAP": "\/contribution.html",
 		"oF": 0
 		},
+	"\/images\/bank-bca.png": {
+		"ft": 32768,
+		"iS": 5171,
+		"oA": 0,
+		"oAP": "\/images\/bank-bca.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bank-bni-syariah.png": {
+		"ft": 32768,
+		"iS": 4565,
+		"oA": 0,
+		"oAP": "\/images\/bank-bni-syariah.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bank-bni.png": {
+		"ft": 32768,
+		"iS": 4135,
+		"oA": 0,
+		"oAP": "\/images\/bank-bni.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bank-bri.png": {
+		"ft": 32768,
+		"iS": 4866,
+		"oA": 0,
+		"oAP": "\/images\/bank-bri.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/bank-mandiri.png": {
+		"ft": 32768,
+		"iS": 4258,
+		"oA": 0,
+		"oAP": "\/images\/bank-mandiri.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bca.png": {
 		"ft": 32768,
 		"iS": 10997,
 		"oA": 0,
 		"oAP": "\/images\/bca.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/gopay.png": {
+		"ft": 32768,
+		"iS": 6123,
+		"oA": 0,
+		"oAP": "\/images\/gopay.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -346,6 +412,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/visa-mastercard.png": {
+		"ft": 32768,
+		"iS": 3112,
+		"oA": 0,
+		"oAP": "\/images\/visa-mastercard.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/index-loggedin.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -431,6 +508,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/verifikasi.html",
+		"oF": 0
+		},
+	"\/yurio.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/yurio.html",
 		"oF": 0
 		}
 	},

@@ -303,12 +303,58 @@
                                         <input id="nominalDonasi" inputmode="numeric" type="number" min="0" class="form-input form-input--block input-amount auto-num-input " name="donation_data[amount]" placeholder="0">
                                     </div>
                                     <div class="form__row change-payment margin--normal-t base-margin-bottom">
-                                        <div class="col align-left margin-left-3">
+                                        <!-- <div class="col align-left margin-left-3">
                                             <div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/logo-gopay.png" width="50"></span><span>GO-PAY</span>
                                             </div>
                                             <div class="col--s2" style="margin-left:0;"><a href="#" class="text-blue text-bold">GANTI</a>
                                             </div>
-                                        </div>
+                                        </div> -->
+                                        <div class="category-select">
+                                                <div class="category-select-head js-category-select-head" style="border: none;">
+                                                    <input type="text" class="sr-only">
+                                                    <!-- <span class="js-category-select-head__text">Bantuan Medis &amp; Kesehatan</span>
+                                                    <span class="icon"></span> -->
+                                                    <div class="col align-left margin-left-3">
+                                                        <div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/gopay.png" width="75"></span><span class="js-category-select-head__text">GO-PAY</span>
+                                                        </div>
+                                                        <div class="col--s2"><a href="#" class="text-blue text-bold">GANTI</a>
+                                                        </div>
+                                                    </div>  
+                                                </div>
+                                                <ul class="list-nostyle category-select-list js-category-select-list hidden" data-target="#categoryInputTarget">
+                                                    <li class="category-select-list__item" data-opt="8">
+                                                        <div class="col align-left margin-left-3">
+                                                            <div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/bank-bca.png" width="75"></span><span>Transfer BCA</span></div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="category-select-list__item" data-opt="9">
+                                                        <div class="col align-left margin-left-3">
+                                                            <div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/bank-bni.png" width="75"></span><span>Transfer BNI</span></div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="category-select-list__item" data-opt="5">
+                                                        <div class="col align-left margin-left-3">
+                                                            <div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/bank-bni-syariah.png" width="75"></span><span>Transfer BNI Syariah</span></div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="category-select-list__item" data-opt="22">
+                                                        <div class="col align-left margin-left-3">
+                                                            <div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/bank-bri.png" width="75"></span><span>Transfer BRI</span></div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="category-select-list__item" data-opt="26">
+                                                        <div class="col align-left margin-left-3">
+                                                            <div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/bank-mandiri.png" width="75"></span><span>Transfer Mandiri</span></div>
+                                                        </div>
+                                                    </li>
+                                                    <li class="category-select-list__item" data-opt="27">
+                                                            <div class="col align-left margin-left-3">
+                                                                <div class="col--s10"><span class="d-inline margin--normal-r"><img src="images/visa-mastercard.png" width="75"></span><span>Kartu Visa/Mastercard</span></div>
+                                                            </div>
+                                                        </li>
+                                                </ul>
+                                                <input name="Projects[project_categories_id]" id="categoryInputTarget" type="hidden" data-vform="option" data-component="select" value="9">
+                                        </div>                    
                                     </div>
                                     <div class="form__row base-margin-bottom">
                                         <!-- <label class="form-label">
@@ -394,42 +440,7 @@
 		</div>
 	</main>
 	<!-- site-main -->
-	<!-- Google Code for Konfirmasi Donasi Conversion Page -->
-	<script type="text/javascript">
-		/* <![CDATA[ */
-		var google_conversion_id = 952844427;
-		var google_conversion_language = "en";
-		var google_conversion_format = "3";
-		var google_conversion_color = "ffffff";
-		var google_conversion_label = "pEL4CKyAhVsQi4GtxgM";
-		var google_remarketing_only = false;
-		/* ]]> */
-	</script>
-	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
-	</script>
-	<noscript>
-		<div style="display:inline;">
-			<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/952844427/?label=pEL4CKyAhVsQi4GtxgM&amp;guid=ON&amp;script=0" />
-		</div>
-	</noscript>
-	<script>
-		window.myPrefix = '';
-	</script>
 	<script src="https://assets.kitabisa.com/js/main.min.js?v=rev_b53e6c6"></script>
-	<script type="text/javascript">
-		/* <![CDATA[ */
-		        var google_conversion_id = 947227357;
-		        var google_custom_params = window.google_tag_params;
-		        var google_remarketing_only = true;
-		        /* ]]> */
-	</script>
-	<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
-	<noscript>
-		<div style="display:inline;">
-			<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/947227357/?value=0&amp;guid=ON&amp;script=0" />
-		</div>
-	</noscript>
-	<script src="//rum-static.pingdom.net/pa-5b96a8457e84eb001600006e.js" async></script>
 	<script type="text/javascript" src="/assets/35739e6/js/custom.js"></script>
 </body>
 

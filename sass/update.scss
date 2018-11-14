@@ -442,6 +442,14 @@ body {
 			}
 
 			textarea { resize: none;height: auto;}
+
+			.category-select .category-select-head {
+				border: none;
+			}
+
+			.category-select .category-select-list {
+				padding: .5em 0;
+			}
 		}
 		&-info {
 			&--counter {
@@ -779,6 +787,14 @@ body {
 			&__row {
 				margin-bottom: $size-medium !important;
 			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		.category-select .category-select-list>.category-select-list__item {
+			font-size: 13px;
 		}
 	}
 }
