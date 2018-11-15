@@ -327,6 +327,28 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/busri-vwo-desktop.png": {
+		"ft": 32768,
+		"iS": 77106,
+		"oA": 0,
+		"oAP": "\/images\/busri-vwo-desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/gibran-vwo-desktop.png": {
+		"ft": 32768,
+		"iS": 74108,
+		"oA": 0,
+		"oAP": "\/images\/gibran-vwo-desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/gopay.png": {
 		"ft": 32768,
 		"iS": 6123,
@@ -409,6 +431,17 @@
 		"iS": 231375,
 		"oA": 0,
 		"oAP": "\/images\/other-donation.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/qian-vwo-desktop.png": {
+		"ft": 32768,
+		"iS": 86043,
+		"oA": 0,
+		"oAP": "\/images\/qian-vwo-desktop.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -522,6 +555,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/verifikasi.html",
+		"oF": 0
+		},
+	"\/vwo-desktop-explore.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/vwo-desktop-explore.html",
 		"oF": 0
 		},
 	"\/vwo-pwa-explore.html": {
