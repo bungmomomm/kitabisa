@@ -240,6 +240,13 @@
 		"oAP": "\/contribution-desktop--notitle.html",
 		"oF": 0
 		},
+	"\/contribution-desktop-loggedin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contribution-desktop-loggedin.html",
+		"oF": 0
+		},
 	"\/contribution-desktop.html": {
 		"cB": 0,
 		"ft": 8192,
