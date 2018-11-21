@@ -42,14 +42,16 @@ assetUrl = "/assets/8a9e91f";
         <!-- <a id="pwaNavBack" class="btn push-left" href="index.html">
             <img src="https://assets.kitabisa.com/images/back.svg">
         </a> -->
-        <span class="pwa-header__title align-center" style="left: 30px;">Donasi Sekarang</span>
+		<!-- <marquee class="pwa-header__title">Simpati Jawa Barat & Netizen untuk Gempa Lombok </marquee> -->
+		<span class="pwa-header__title align-center">Donasi Sekarang </span>
     </header>
     <div class="container base-padding-top medium-padding align-center">
         <!-- <h4 class="base-margin-top base-margin-bottom">Masukkan Nominal Donasi</h4> -->
 		<div class="form__row form__row--amount cf top-checkbox">
 			<!-- <label class="form-label">
-					<strong>Jumlah Donasi</strong>
-				</label> -->	<span class="label-amount">Rp</span>
+				<strong>Jumlah Donasi</strong>
+			</label> -->	
+			<span class="label-amount">Rp</span>
 			<input id="nominalDonasi" inputmode="numeric" type="number" min="0" class="form-input form-input--block input-amount auto-num-input " name="donation_data[amount]" placeholder="0">
 		</div>
 		<div class="form__row change-payment margin--normal-t">
@@ -106,12 +108,10 @@ assetUrl = "/assets/8a9e91f";
                     <input name="Projects[project_categories_id]" id="categoryInputTarget" type="hidden" data-vform="option" data-component="select" value="9">
             </div>   
 		</div>
-		<div class="form__row">
-			<!-- <label class="form-label">
-				<strong>No Handphone</strong>
-				</label> -->
-			<input id="namalengkap" class="form-input form-input--block js-show-checkbox " type="text" name="donation_data[nama_lengkap]" placeholder="Nama Lengkap">
-			<div class="checkbox-wrapper--alt small-margin-top align-top">
+		<div class="form__row align-left">
+            <div>Supatmo Cahyono</div>
+            <small class="text-12 text-black40 base-margin-bottom">me@bungmomo.com</small>
+            <div class="checkbox-wrapper--alt small-margin-top align-top">
 				<input id="anonymCheck" type="checkbox" name="donation_data[anonymous]" onclick="ga('send', 'event', 'checkbox-anonim', 'click', 'desktop.donate')">
 				<label for="anonymCheck" class="checkbox-content"><span class="material-icons">check</span></label>
 				<span class="label-text pos-r">Sembunyikan nama saya (Anonim)</span>
@@ -158,8 +158,8 @@ assetUrl = "/assets/8a9e91f";
 			</div>
         </div>
     </div>
-    <div id="campaign-donate-hilite" class="pwa-campaign-donate pwa-campaign-tip__hilite js-campaign-tip__hilite">
-        <div class="container btn-stiky">
+    <div id="campaign-donate-hilite" class="pwa-campaign-tip__hilite js-campaign-tip__hilite">
+        <div class="container btn-stiky" style="width: 100%;padding-left:20px;padding-right:20px;">
             <a class="btn btn--pink btn--large btn--block text-bold" href="summary.html">LANJUT PEMBAYARAN</a>
         </div>
     </div>

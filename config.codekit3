@@ -247,6 +247,13 @@
 		"oAP": "\/contribution-desktop.html",
 		"oF": 0
 		},
+	"\/contribution-loggedin.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contribution-loggedin.html",
+		"oF": 0
+		},
 	"\/contribution-noexit.html": {
 		"cB": 0,
 		"ft": 8192,
