@@ -31,9 +31,6 @@ assetUrl = "/assets/8a9e91f";
 </head>
 <body id="pwaNew">
 	<header class="pwa-header">
-		<button id="pwaNavBtn" class="btn btn--hamburger push-left" onclick="ga('send', 'event', 'mobile_site-hamburger_menu-header', 'click', 'mobile_site-hamburger_menu-header')">
-			<img src="https://assets.kitabisa.com/images/menu.svg">
-		</button>
 		<a href="/" class="pwa-header__link">
 			<script type="text/javascript">
 				//<![CDATA[
@@ -43,9 +40,6 @@ assetUrl = "/assets/8a9e91f";
 			<script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/04b3eb47/cloudflare-static/mirage2.min.js"></script>
 			<img data-cfsrc="asssets/images/site-logo-white.png" alt="" src="assets/images/site-logo-white.png">
 		</a>
-		<button class="btn btn--search push-right" onclick="ga('send', 'event', 'mobile_site-search-header', 'click', 'mobile_site-search-header')">
-			<img src="https://assets.kitabisa.com/images/search.svg">
-		</button>
 		<div class="pwa-nav-new">
 			<div class="pwa-nav__header">
 				<button id="pwaNavClose" onclick="ga('send', 'event', 'mobile_site-hamburger_menu_close-header', 'click', 'mobile_site-hamburger_menu_close-header')">
@@ -105,82 +99,8 @@ assetUrl = "/assets/8a9e91f";
 					</nav>
 				</div>
 			</div>
-			<div class="pwa-header-search">
-				<form action="/search" class="pwa-header-form" method="GET">
-					<input type="text" placeholder="Cari Campaign" name="keyword">
-					<span class="fa fa-search"></span>
-				</form>
-				<button class="btn btn--cancel push-right" onclick="ga('send', 'event', 'mobile_site-cancel_search-header', 'click', 'mobile_site-cancel_search-header')">Batal</button>
-			</div>
-			<div class="pwa-search-query">
-				<h3 class="pwa-search-query__title">
-					Pencarian Terpopuler
-				</h3>
-				<ul class="pwa-search-query__list list-nostyle">
-					<li>
-						<a href="/search?keyword=lombok">lombok</a> 
-						<button class="btn btn--close">
-							<span>X</span>
-						</button>
-					</li>
-					<li>
-						<a href="/search?keyword=masjid">masjid</a> 
-						<button class="btn btn--close">
-							<span>X</span>
-						</button>
-					</li>
-					<li>
-						<a href="/search?keyword=Danang">danang</a> 
-						<button class="btn btn--close">
-							<span>X</span>
-						</button>
-					</li>
-					<li>
-						<a href="/search?keyword=pendidikan">pendidikan</a> 
-						<button class="btn btn--close">
-							<span>X</span>
-						</button>
-					</li>
-					<li>
-						<a href="/search?keyword=1">1</a> 
-						<button class="btn btn--close">
-							<span>X</span>
-						</button>
-					</li>
-					<li>
-						<a href="/search?keyword=sekolah">sekolah</a> 
-						<button class="btn btn--close">
-							<span>X</span>
-						</button>
-					</li>
-					<li>
-						<a href="/search?keyword=Shinta">shinta</a> 
-						<button class="btn btn--close">
-							<span>X</span>
-						</button>
-					</li>
-					<li>
-						<a href="/search?keyword=Kanker">kanker</a> 
-						<button class="btn btn--close">
-							<span>X</span>
-						</button>
-					</li>
-					<li>
-						<a href="/search?keyword=gempa+lombok">gempa lombok</a> 
-						<button class="btn btn--close">
-							<span>X</span>
-						</button>
-					</li>
-					<li>
-						<a href="/search?keyword=ridwan+kamil">ridwan kamil</a> 
-						<button class="btn btn--close">
-							<span>X</span>
-						</button>
-					</li>
-				</ul>
-			</div>
 	</header>
-	<div class="container medium-padding">
+	<div class="container base-padding-top padding--normal-h align-center margin--medium-v">
 		<h4 class="margin--small-b align-center margin--no-t">Instruksi Pembayaran</h4>
 		<span class="align-center d-block">Transfer tepat sesuai nominal berikut</span>
 		<div class="align-center copy-trigger" data-clipboard-demo="" data-clipboard-text="100256">
@@ -220,7 +140,7 @@ assetUrl = "/assets/8a9e91f";
 		<small class="align-left">* 3 angka terakhir akan didonasiakan.</small>
 	</div>
 	<div class="spacer"></div>
-	<div class="container medium-padding">
+	<div class="container base-padding-top padding--normal-h align-center">
 		<span class="align-center d-block">Transfer ke rekening a/n <strong>Yayasan Kita Bisa</strong> berikut ini :  </span>
 		<ul class="pwa-donation__summary list-nostyle text-14 margin--normal-v white-bg">
 			<li>
@@ -243,7 +163,7 @@ assetUrl = "/assets/8a9e91f";
 		</ul>
 	</div>
 	<div class="spacer"></div>
-	<div class="container medium-padding">
+	<div class="container base-padding-top padding--normal-h align-center margin--medium-b">
 		<h4 class="margin--xsmall-b align-center margin--no-t">Bantu share penggalangan dana ini</h4>
 		<a class="btn btn--large btn--block btn--fb margin--medium-t margin--small-b" onclick="ga('send', 'event', 'share-facebook-payment-summary-page-pwa', 'share-facebook-payment-summary-page-pwa'); return popitup('https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fm.kitabisa.com%2Fpesantrenuntuklombok%3Futm_source%3Dfacebook%26utm_medium%3Dsharebutton_payment_summary%26utm_campaign%3Dprojectshare','Share on Facebook',550,300)" href="#"><span class="fa fa-facebook-official"></span> BAGIKAN KE FACEBOOK</a>
 		<a href="whatsapp://send?text=Mari turun tangan demi solidaritas kemanusiaan untuk musibah Gempa di Lombok.. Bantu donasi dengan klik https://kitabisa.com/netizenuntuklombok" class="btn btn--block btn--large-pd-tb btn-social-wa share__btn-social flex-center-vh" rel="external" onclick="ga('send','event','mobile_site-share_to_whatsapp-campaign_view','click','mobile_site-share_to_whatsapp-campaign_view')" style="padding: 12px 4px;">
@@ -252,7 +172,7 @@ assetUrl = "/assets/8a9e91f";
 				</a>
 	</div>
 	<div class="spacer"></div>
-	<div class="container medium-padding align-center">
+	<div class="container base-padding-top padding--normal-h align-center margin--medium-b">
 		<h4 class="margin--small-b align-center margin--no-t">Ingin membantu yang lain</h4>
 		<p>Campaign-campaign berikut juga butuh bantuan Anda, lihat selengkapnya!</p>
 		<div class="margin--medium-t">
