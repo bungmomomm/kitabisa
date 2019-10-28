@@ -275,6 +275,90 @@
 		"oAP": "\/contribution.html",
 		"oF": 0
 		},
+	"\/images\/Archive\/bca.png": {
+		"ft": 32768,
+		"iS": 5171,
+		"oA": 0,
+		"oAP": "\/images\/Archive\/bca.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Archive\/bni-syariah.png": {
+		"ft": 32768,
+		"iS": 4565,
+		"oA": 0,
+		"oAP": "\/images\/Archive\/bni-syariah.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Archive\/bni.png": {
+		"ft": 32768,
+		"iS": 4135,
+		"oA": 0,
+		"oAP": "\/images\/Archive\/bni.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Archive\/bri.png": {
+		"ft": 32768,
+		"iS": 4866,
+		"oA": 0,
+		"oAP": "\/images\/Archive\/bri.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Archive\/dompet-kebaikan.png": {
+		"ft": 32768,
+		"iS": 3215,
+		"oA": 0,
+		"oAP": "\/images\/Archive\/dompet-kebaikan.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Archive\/gopay.png": {
+		"ft": 32768,
+		"iS": 6123,
+		"oA": 0,
+		"oAP": "\/images\/Archive\/gopay.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/Archive\/logo-bank-payment-contribute.zip": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/images\/Archive\/logo-bank-payment-contribute.zip",
+		"oF": 0
+		},
+	"\/images\/Archive\/mandiri.png": {
+		"ft": 32768,
+		"iS": 4258,
+		"oA": 0,
+		"oAP": "\/images\/Archive\/mandiri.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/images\/bank-bca.png": {
 		"ft": 32768,
 		"iS": 5171,
@@ -346,6 +430,17 @@
 		"iS": 77106,
 		"oA": 0,
 		"oAP": "\/images\/busri-vwo-desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/dompet-kebaikan.png": {
+		"ft": 32768,
+		"iS": 3215,
+		"oA": 0,
+		"oAP": "\/images\/dompet-kebaikan.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

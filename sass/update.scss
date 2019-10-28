@@ -48,101 +48,13 @@ $size-xsmall : 5px;
   transition-delay: .3s;
 }
 
-body#site-body {
-	background-color: #f2f3f4;
-	padding: 0;
-	margin: 0;
-
-	// Desktop
-
-	.cols-project {
-		position: relative;
-	}
-
-	.main-col {
-		.project-title {margin-bottom: 1em;max-width: 100% !important;}
-	}
-
-	.side-col {
-		/* padding-left: 1.666em; */
-		position: fixed;
-		width: 360px;
-		left: 60%;
-		padding-left: 0;
-		padding-right: 0;
-
-		&.scrolled {
-			transition: all 0.5s ease;
-			position: fixed;
-			top: 20px;
-		}
-
-		&.longscroll {
-			transition: all 0.5s ease;
-			position: relative;
-			left: inherit;
-		}
-
-	}
-
-	.project {
-
-		&-bar {
-			background: #E9E9E9;
-			height: 5px;
-			&-progress {
-				border-radius: 5px;
-			}
-		}	
-		&-detail {
-			border-radius: 4px;
-			padding-right: $size-medium;
-			padding-left: $size-medium;
-			padding-top: $size-medium;
-			margin-bottom: 0;
-
-			&.is-active {
-				padding-top: $size-medium !important;
-			}
-
-		}
-	}
-
-	.tab {
-
-		&-nav-wrapper.fixed {
-			position: static;
-			top: unset;
-			box-shadow: none;
-		}
-		&__item {
-			width: calc(100% / 3);
-			text-align: center;
-			margin-left: 0;
-		}
-		&__panel {
-			&.is-active {padding-top: 1em;}
-		}
-	}
-
-	// .btn {
-	// 	height: auto;
-	// }
-}
-
 body {
 	font-family: 'Open Sans',sans-serif;
 	margin: 0;
 	padding: 50px 0 75px;
 	overflow-x: hidden;
 	background-color: $clr-white;
-
-	// PWA
-
-	&#pwaNew {
-		background-color: $clr-white;
-	}
-
+	
 	.featuredImages {
 
 		position: relative;
@@ -169,18 +81,6 @@ body {
 				background-color: $clr-primary;
 				width: 14px;
 			}
-		}
-	}
-
-	.pwa-header {
-		&__title {
-			font-weight: 600;
-			color: $clr-white;
-			font-size: 16px;
-			position: relative;
-			left: 50px;
-			margin-right: 40px;
-			display: block;
 		}
 	}
 
@@ -252,9 +152,7 @@ body {
 			li:last-child .col {border:none;padding-bottom: 0;}
 		}
 	}
-	.payment {
-		&-opt__item label {text-align: left;}
-	}
+
 	.copy-trigger {
 
 		position: relative;
@@ -363,54 +261,12 @@ body {
 			border-color: #E8E9EB;
 			border-radius: 3px;
 			box-shadow: none;
-			font-size: 14px !important;
 			height: 45px;
 		}
 
 		&__row {
 			position: relative;
-			margin-bottom: 1em !important;
-
-			.form-label {
-				font-size: 14px !important;
-			}
-
-			// .js-toggle-another-radio {
-			// 	background-color: #f2f3f4;
-			// 	padding: 4px;
-			// 	border-radius: 4px;
-
-			// 	.radio-custom input[type=radio]:checked+label {
-			// 		border-color: #ffffff;
-			// 		background-color: #ffffff;
-			// 		border-radius: 4px;
-			// 		text-align: center;
-			// 		display: block;
-			// 		color: #4d4d4d;
-
-			// 		.radio-custom__toggle {
-			// 			border: 2px solid #01abeb;
-			// 			display: none;
-			// 		}
-			// 	}
-
-			// 	.radio-custom--bordered input[type=radio]+label {
-			// 		transition: transform 1s ease-in-out;
-			// 		border-radius: 3px;
-			// 		border: 1px solid #f2f3f4;
-			// 		padding: .75em;
-			// 		border-radius: 4px;
-			// 		font-size: 12px;
-			// 		text-align: center;
-			// 		display: block;
-			// 		color: #ccc;
-
-			// 		.radio-custom__toggle {
-			// 			border: 2px solid #01abeb;
-			// 			display: none;
-			// 		}
-			// 	}
-			// }
+			margin-bottom: 15px;
 
 			&.change-payment {
 				padding: 8px 0;
@@ -425,10 +281,10 @@ body {
 					margin: 10px 15px;
 				}
 				.input-amount {
-					font-size: 24px !important;
+					font-size: 24px;
 					color: #4a4a4a;
-					background-color: #f2f3f4;
-					border-color: #f2f3f4;
+					background-color: #F8F8F8;
+					border-color: #F8F8F8;
 					text-align: right;
 					padding-right: 15px;
 					height: auto;
@@ -446,14 +302,6 @@ body {
 			}
 
 			textarea { resize: none;height: auto;}
-
-			.category-select .category-select-head {
-				border: none;
-			}
-
-			.category-select .category-select-list {
-				padding: .5em 0;
-			}
 		}
 		&-info {
 			&--counter {
@@ -462,7 +310,7 @@ body {
 				right: 10px;
 				color: #989898;
 				font-size: 12px;
-				z-index: 9;
+				z-index: 999;
 			}
 		}
 	}
@@ -752,13 +600,13 @@ body {
 
 	.medium {
 		&-padding {
-			padding: $size-medium $size-normal;
+			padding: 20px 10px;
 		}
 	}
 
 	.large {
 		&-padding {
-			padding: $size-medium;
+			padding: 20px 20px;
 		}
 	}
 
@@ -782,23 +630,5 @@ body {
 	ul {
 		list-style: none;
 		padding-left: 0;
-	}
-}
-
-@media (min-width: 900px) {
-	body {
-		.form {
-			&__row {
-				margin-bottom: $size-medium !important;
-			}
-		}
-	}
-}
-
-@media (max-width: 768px) {
-	body {
-		.category-select .category-select-list>.category-select-list__item {
-			font-size: 13px;
-		}
 	}
 }
