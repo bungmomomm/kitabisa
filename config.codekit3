@@ -282,46 +282,11 @@
 		"oAP": "\/contribute.html",
 		"oF": 0
 		},
-	"\/contribution-desktop--notitle.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/contribution-desktop--notitle.html",
-		"oF": 0
-		},
-	"\/contribution-desktop-loggedin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/contribution-desktop-loggedin.html",
-		"oF": 0
-		},
-	"\/contribution-desktop.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/contribution-desktop.html",
-		"oF": 0
-		},
 	"\/contribution-loggedin.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/contribution-loggedin.html",
-		"oF": 0
-		},
-	"\/contribution-noexit.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/contribution-noexit.html",
-		"oF": 0
-		},
-	"\/contribution.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/contribution.html",
 		"oF": 0
 		},
 	"\/images\/bank-bca.png": {
@@ -555,20 +520,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/index-loggedin.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index-loggedin.html",
-		"oF": 0
-		},
-	"\/index-updated.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/index-updated.html",
-		"oF": 0
-		},
 	"\/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -641,13 +592,6 @@
 		"oAP": "\/signup.html",
 		"oF": 0
 		},
-	"\/summary-desktop.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/summary-desktop.html",
-		"oF": 0
-		},
 	"\/summary.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -660,20 +604,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/verifikasi.html",
-		"oF": 0
-		},
-	"\/vwo-desktop-explore.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/vwo-desktop-explore.html",
-		"oF": 0
-		},
-	"\/vwo-pwa-explore.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/vwo-pwa-explore.html",
 		"oF": 0
 		}
 	},
