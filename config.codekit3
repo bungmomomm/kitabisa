@@ -49,6 +49,27 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/icon-arrow-right.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/icon-arrow-right.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/icon-arrow-right@2x.png": {
+		"ft": 32768,
+		"iS": 435,
+		"oA": 0,
+		"oAP": "\/assets\/images\/icon-arrow-right@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/site-logo-white.png": {
 		"ft": 32768,
 		"iS": 3686,
@@ -233,6 +254,34 @@
 		"oAP": "\/campaign-detail__desktop.html",
 		"oF": 0
 		},
+	"\/change-payment.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/change-payment.html",
+		"oF": 0
+		},
+	"\/contribute-amount.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contribute-amount.html",
+		"oF": 0
+		},
+	"\/contribute-bca.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contribute-bca.html",
+		"oF": 0
+		},
+	"\/contribute.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contribute.html",
+		"oF": 0
+		},
 	"\/contribution-desktop--notitle.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -274,90 +323,6 @@
 		"oA": 0,
 		"oAP": "\/contribution.html",
 		"oF": 0
-		},
-	"\/images\/Archive\/bca.png": {
-		"ft": 32768,
-		"iS": 5171,
-		"oA": 0,
-		"oAP": "\/images\/Archive\/bca.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Archive\/bni-syariah.png": {
-		"ft": 32768,
-		"iS": 4565,
-		"oA": 0,
-		"oAP": "\/images\/Archive\/bni-syariah.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Archive\/bni.png": {
-		"ft": 32768,
-		"iS": 4135,
-		"oA": 0,
-		"oAP": "\/images\/Archive\/bni.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Archive\/bri.png": {
-		"ft": 32768,
-		"iS": 4866,
-		"oA": 0,
-		"oAP": "\/images\/Archive\/bri.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Archive\/dompet-kebaikan.png": {
-		"ft": 32768,
-		"iS": 3215,
-		"oA": 0,
-		"oAP": "\/images\/Archive\/dompet-kebaikan.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Archive\/gopay.png": {
-		"ft": 32768,
-		"iS": 6123,
-		"oA": 0,
-		"oAP": "\/images\/Archive\/gopay.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/images\/Archive\/logo-bank-payment-contribute.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/images\/Archive\/logo-bank-payment-contribute.zip",
-		"oF": 0
-		},
-	"\/images\/Archive\/mandiri.png": {
-		"ft": 32768,
-		"iS": 4258,
-		"oA": 0,
-		"oAP": "\/images\/Archive\/mandiri.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/images\/bank-bca.png": {
 		"ft": 32768,
@@ -436,11 +401,11 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/dompet-kebaikan.png": {
+	"\/images\/campaign-alifah.png": {
 		"ft": 32768,
-		"iS": 3215,
+		"iS": 825987,
 		"oA": 0,
-		"oAP": "\/images\/dompet-kebaikan.png",
+		"oAP": "\/images\/campaign-alifah.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -629,6 +594,26 @@
 		"rFN": 0,
 		"uCM": 0
 		},
+	"\/sass\/animate-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sass\/animate-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/sass\/animate.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/sass\/animate-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/sass\/update.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -689,13 +674,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/vwo-pwa-explore.html",
-		"oF": 0
-		},
-	"\/yurio.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/yurio.html",
 		"oF": 0
 		}
 	},
